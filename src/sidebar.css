@@ -36,7 +36,7 @@ Sidebar
 ----------------*/
 .sidebar {
   position: absolute;
-  width: 17em;
+  width: 20em;
   height: 100%;
   top: 0;
   overflow: hidden;
@@ -52,6 +52,140 @@ Sidebar
   padding: 0.75em 1em;
 }
 
+/* On screens that are 1900px or less, set the background color to blue */
+@media screen and (max-width: 1900px) {
+  .sidebar {
+    width: 19em!important;
+  }
+  .map{
+padding-left:20px!important;
+width:100%!important
+  }
+}
+/* On screens that are 1600px or less, set the background color to blue */
+@media screen and (max-width: 1700px) {
+  .sidebar {
+    width: 21em!important;
+  }
+  .map{
+    padding-left:40px!important;
+    width:100%!important
+
+  }
+}
+/* On screens that are 1600px or less, set the background color to blue */
+@media screen and (max-width: 1600px) {
+  .sidebar {
+    width: 21em!important;
+  }
+  .map{
+    padding-left:50px!important;
+    width:100%!important
+
+  }
+}
+/* On screens that are 1400px or less, set the background color to blue */
+@media screen and (max-width: 1500px) {
+  .sidebar {
+    width: 22em!important;
+  }
+  .map{
+    padding-left:60px!important;
+    width:100%!important
+
+  }
+}
+/* On screens that are 1400px or less, set the background color to blue */
+@media screen and (max-width: 1400px) {
+  .sidebar {
+    width: 22em!important;
+  }
+  .map{
+    padding-left:70px!important;
+    width:100%!important
+
+  }
+}
+/* On screens that are 1200px or less, set the background color to blue */
+@media screen and (max-width: 1300px) {
+  .sidebar {
+   width: 24em;
+
+  }
+  .map{
+    padding-left:80px!important;
+    width:100%!important
+
+  }
+}
+/* On screens that are 1200px or less, set the background color to blue */
+@media screen and (max-width: 1200px) {
+  .sidebar {
+   width: 24em;
+
+  }
+  .map{
+    padding-left:90px!important;
+    width:100%!important
+
+  }
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1100px) {
+  .sidebar {
+    width: 25em;
+  }
+  .map{
+    padding-left:100px!important;
+    width:100%!important
+
+  }
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .sidebar {
+    width: 26em;
+  }
+  .map{
+    padding-left:110px!important;
+    width:100%!important
+
+  }
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 800px) {
+  .sidebar {
+    width: 27em;
+  }
+  .map{
+    padding-left:120px!important;
+    width:100%!important
+
+  }
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 28em;
+  }
+  .map{
+    /* padding-left:130px!important; */
+    width:100%!important
+
+  }
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .sidebar {
+    width: 29em;
+  }
+  .map{
+    /* padding-left:140px!important; */
+    width:100%!important
+
+  }
+}
 /* -------------
 Sidebar Nav
 ----------------*/

@@ -7,8 +7,8 @@ function Map() {
   return (
     <>
   
-    <div className="map" style={{width:'100%', height:'90vh'}}>
-    <MapContainer center={position} zoom={13} scrollWheelZoom={false} style={{height:'96vh'}}>
+    <div className="map" style={{ height:'100vh'}}>
+    <MapContainer center={position} zoom={13} scrollWheelZoom={false} style={{height:'100vh'}}>
     <TileLayer
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -20,9 +20,7 @@ function Map() {
     </Marker>
   </MapContainer>
     </div>
-    {/* <div className="poula" style={{width:'100%', height:'90vh'}}>
-      <h1>hello pop</h1>
-    </div> */}
+
     </>
     );
   }
